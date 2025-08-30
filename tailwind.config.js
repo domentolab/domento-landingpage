@@ -12,8 +12,17 @@ module.exports = {
 		extend: {
 			 
 			fontFamily: {
-				poly: ['"poly"', "serif"],
+				sans: ['Open Sans', "sans-serif"],
+				montbold: ['Montserrat Semi Bold', "sans-serif"],
+				montmedium: ['Montserrat Medium', "sans-serif"],
 			},
+
+			colors: {
+        		primary: '#245C9D',
+        		secondary: '#3BC6C6 ',
+        		background: '#ffffff',
+        		text: '#333333',
+      },
 		},
 	},
 	plugins: [
