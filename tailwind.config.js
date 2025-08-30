@@ -7,7 +7,7 @@ module.exports = {
 		"**/*.js",
 		"**/*.html",
 	],
-	darkMode: 'class',
+	darkMode: 'false',
 	theme: {
 		extend: {
 			 
