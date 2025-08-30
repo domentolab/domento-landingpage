@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="G:\Meine Ablage\Bauherren-Plattform\Designs\Logo\Logo-Icon-Transparent.png"
+   width="150"
+   height="184"
+   viewBox="0 0 39.687498 48.683335"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="Icon-Domento.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     units="px"
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="430.8101"
+     inkscape:cy="318.91364"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.99999866,0,0,0.99428425,-85.366582,-79.391655)"
+       id="g2076">
+      <g
+         id="g1634"
+         transform="matrix(1.0002123,0,0,1.0027681,-317.03006,115.42245)">
+        <g
+           id="g1638">
+          <rect
+             ry="3.5825984"
+             style="fill:#3bc6c6;fill-opacity:1;stroke:none;stroke-width:0.103374;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
+             id="rect1361-2-77"
+             width="26.354959"
+             height="26.354959"
+             x="409.02222"
+             y="-14.360356" />
+          <path
+             id="path1377-1-0-8-5"
+             style="fill:#fffffd;fill-opacity:1;stroke:#ffffff;stroke-width:0.377953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 1606.2129,-39.263672 c -5.3288,-0.11767 -26.1704,5.314257 -36.043,12.867188 -7.4245,5.680055 14.9014,9.938556 22.1719,13.314453 4.4089,2.047154 7.7587,7.6945095 3.8223,12.207031 -7.1425,8.1877078 -22.514,15.171997 -35.3418,23.265625 -5.4113,3.41419 -10.8704,6.078496 -15.0918,8.351563 v 0.976562 c 0,7.501454 6.0395,13.541016 13.541,13.541016 l 34.1352,-0.03157 0.3316,-0.251637 c 0,0 34.6525,-25.98153 36.9824,-45.2499995 2.2499,-18.6061875 -38.1877,-20.0520395 -43.3086,-24.4511715 -5.0808,-4.364799 19.0469,-13.058594 19.0469,-13.058594 1.5216,-0.97834 1.2459,-1.447521 -0.2461,-1.480469 z"
+             transform="scale(0.26458333)"
+             sodipodi:nodetypes="ssssscssccsscs" />
+        </g>
+      </g>
+      <path
+         style="fill:none;stroke:#245c9d;stroke-width:4.78571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 89.08247,97.306563 16.26329,-13.735215 15.99266,13.734385"
+         id="path868"
+         sodipodi:nodetypes="ccc" />
+    </g>
+  </g>
+</svg>
