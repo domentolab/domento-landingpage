@@ -13,8 +13,7 @@ module.exports = {
 			 
 			fontFamily: {
 				sans: ['Open Sans', "sans-serif"],
-				montbold: ['Montserrat Semi Bold', "sans-serif"],
-				montmedium: ['Montserrat Medium', "sans-serif"],
+				mont: ['Montserrat', "sans-serif"],
 			},
 
 			colors: {
