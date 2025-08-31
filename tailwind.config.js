@@ -1,12 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  prefix: 'tw-',
-  important: false,
   content: [
     "./index.html",
-    "./*.html",
-    "./**/*.{html,js,jsx}"
+    "./**/*.{html,js}",
   ],
+  prefix: 'tw-',
   theme: {
     extend: {
       fontFamily: {
@@ -25,6 +23,7 @@ module.exports = {
 
         'text-primary': 'var(--color-text-primary)',
         'text-secondary': 'var(--color-text-secondary)',
+
         bg: 'var(--color-bg)',
         'bg-section': 'var(--color-bg-section)',
         'bg-hover': 'var(--color-bg-hover)',
@@ -35,12 +34,8 @@ module.exports = {
       },
       boxShadow: {
         DEFAULT: 'var(--shadow-default)',
-      },
+      }
     },
   },
-  plugins: [
-    function ({ addVariant }) {
-      addVariant('firefox', ':-moz-any(&)')
-    }
-  ],
+  plugins: [],
 }
