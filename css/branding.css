@@ -2,20 +2,28 @@
    Brand Variables
 ============================== */
 :root {
-  --color-primary: #0070f3; /* Hauptfarbe */
-  --color-secondary: #00bfa5; /* Akzentfarbe */
-  --color-accent: #f39c12; /* Zusatzfarbe */
-  --color-bg-light: #f9fafb; /* Hintergrund hell */
-  --color-bg-dark: #1f2937; /* Hintergrund dunkel */
-  --color-text-primary: #111827; /* Haupttext */
-  --color-text-secondary: #6b7280; /* Sekundärtext */
+  --color-primary: #245C9D;
+  --color-primary-hover: #1F4F88;
+  --color-primary-active: #1A4373;
+  --color-primary-disabled: #AFC4DA;
 
-  --font-heading: "Montserrat", sans-serif;
-  --font-body: "Open Sans", sans-serif;
+  --color-accent: #3BC6C6;
+  --color-accent-hover: #34B1B1;
+  --color-accent-active: #2D9D9D;
 
-  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-card: 0 6px 20px rgba(0, 0, 0, 0.12);
-  --radius-lg: 12px;
+  --color-text-primary: #2B2B2B;
+  --color-text-secondary: #5A5A5A;
+   --color-text-inverted: #FFFFFF;
+
+  --color-bg: #FFFFFF;
+  --color-bg-section: #F5F7FA;
+  --color-bg-hover: #EEF1F5;
+
+  --status-success: #43A047;
+  --status-warning: #FB8C00;
+  --status-error: #E53935;
+
+  --shadow-default: 0 4px 6px rgba(0, 0, 0, 0.12);
 }
 
 /* ==============================
@@ -128,3 +136,4 @@ p {
 .rounded-lg {
   border-radius: var(--radius-lg);
 }
+
