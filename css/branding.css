@@ -1,0 +1,88 @@
+:root{
+  /* Color Tokens (gemäss Guideline) */
+  --color-primary: #245C9D;
+  --color-primary-hover: #1F4F88; /* 10% dunkler */
+  --color-primary-active: #1A4373; /* 20% dunkler */
+  --color-primary-disabled: #AFC4DA;
+
+  --color-accent: #3BC6C6;
+  --color-accent-hover: #34B1B1;
+  --color-accent-active: #2D9D9D;
+
+  --color-text-primary: #2B2B2B;
+  --color-text-secondary: #5A5A5A;
+  --color-text-inverted: #FFFFFF;
+
+  --color-bg: #FFFFFF;
+  --color-bg-section: #F5F7FA;
+  --color-bg-hover: #EEF1F5;
+
+  --shadow-default: 0 4px 6px rgba(0,0,0,0.12);
+
+  --status-success: #43A047;
+  --status-warning: #FB8C00;
+  --status-error: #E53935;
+}
+
+/* Basis / Reset (leicht) */
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Komponenten (verwende diese Klassen im HTML punktuell) */
+
+/* 1) Primary CTA */
+.brand-btn{
+  background: var(--color-primary);
+  color: var(--color-text-inverted);
+  padding: 12px 24px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600; /* Open Sans Semi-Bold */
+  box-shadow: var(--shadow-default);
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+.brand-btn:hover{ background: var(--color-primary-hover); }
+.brand-btn:active{ background: var(--color-primary-active); }
+.brand-btn[aria-disabled="true"],
+.brand-btn.disabled{ background: var(--color-primary-disabled); cursor: not-allowed; }
+
+/* 2) Outline / Secondary */
+.brand-btn-outline{
+  background: transparent;
+  color: var(--color-primary);
+  padding: 10px 22px;
+  border-radius: 12px;
+  border: 1px solid rgba(36,92,157,0.12);
+  font-weight: 600;
+}
+.brand-btn-outline:hover{ background: var(--color-bg-hover); }
+
+/* 3) Badge / Accent */
+.brand-badge{
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--color-bg-section);
+  color: var(--color-primary);
+  font-weight:600;
+  font-size:0.9rem;
+}
+
+/* 4) Card base */
+.brand-card{
+  background: #fff;
+  border: 1px solid rgba(229,231,235,1); /* --color border */
+  border-radius: 12px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-default);
+}
+
+/* Tiny helpers */
+.text-muted{ color: var(--color-text-secondary); }
+.bg-section{ background: var(--color-bg-section); }
