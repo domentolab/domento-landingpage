@@ -137,3 +137,13 @@ p {
   border-radius: var(--radius-lg);
 }
 
+
+/* ==============================
+   Fonts
+============================== */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.font-opensans {
+  font-family: 'Open Sans', sans-serif;
+}
