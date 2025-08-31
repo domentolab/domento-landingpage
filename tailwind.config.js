@@ -60,9 +60,9 @@ module.exports = {
         mont: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        primary: '#123456', // deine Hauptfarbe
-        secondary: '#654321', // Sekundärfarbe
-        accent: '#f59e0b', // Beispiel für eine Akzentfarbe
+        primary: '#245C9D',
+        text: '#333333',
+        accent: '#3BC6C6',
       },
     },
   },
