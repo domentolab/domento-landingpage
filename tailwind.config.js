@@ -47,3 +47,24 @@ module.exports = {
 }
 
 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./**/*.{html,js}",
+  ],
+  prefix: 'tw-',
+  theme: {
+    extend: {
+      fontFamily: {
+        mont: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+        primary: '#123456', // deine Hauptfarbe
+        secondary: '#654321', // Sekundärfarbe
+        accent: '#f59e0b', // Beispiel für eine Akzentfarbe
+      },
+    },
+  },
+  plugins: [],
+}
