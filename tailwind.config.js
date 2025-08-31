@@ -3,10 +3,10 @@ module.exports = {
   prefix: 'tw-',
   important: false,
   content: [
+    "./index.html",
     "./*.html",
     "./**/*.{html,js,jsx}"
   ],
-  darkMode: false,
   theme: {
     extend: {
       fontFamily: {
@@ -14,7 +14,6 @@ module.exports = {
         mont: ['Montserrat', 'sans-serif'],
       },
       colors: {
-        // We map Tailwind names to CSS-Variablen (runtime)
         primary: 'var(--color-primary)',
         'primary-hover': 'var(--color-primary-hover)',
         'primary-active': 'var(--color-primary-active)',
@@ -36,7 +35,7 @@ module.exports = {
       },
       boxShadow: {
         DEFAULT: 'var(--shadow-default)',
-      }
+      },
     },
   },
   plugins: [
@@ -44,27 +43,4 @@ module.exports = {
       addVariant('firefox', ':-moz-any(&)')
     }
   ],
-}
-
-
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./index.html",
-    "./**/*.{html,js}",
-  ],
-  prefix: 'tw-',
-  theme: {
-    extend: {
-      fontFamily: {
-        mont: ['Montserrat', 'sans-serif'],
-      },
-      colors: {
-        primary: '#245C9D',
-        text: '#333333',
-        accent: '#3BC6C6',
-      },
-    },
-  },
-  plugins: [],
 }
