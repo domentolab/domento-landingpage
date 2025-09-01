@@ -13,7 +13,7 @@
 
   --color-text-primary: #2B2B2B;
   --color-text-secondary: #5A5A5A;
-   --color-text-inverted: #FFFFFF;
+  --color-text-inverted: #FFFFFF;
 
   --color-bg: #FFFFFF;
   --color-bg-section: #F5F7FA;
@@ -24,6 +24,7 @@
   --status-error: #E53935;
 
   --shadow-default: 0 4px 6px rgba(0, 0, 0, 0.12);
+  --border-radius-default: 12px;
 }
 
 /* ==============================
@@ -90,11 +91,13 @@ p {
   font-weight: 600;
   text-decoration: none;
   transition: background 0.3s ease, transform 0.2s ease;
+   border-radius: var(--border-radius-default);
 }
 
 .brand-btn:hover {
-  background: var(--color-secondary);
-  transform: translateY(-2px);
+   background: var(--color-secondary);
+   transform: translateY(-2px);
+   color: var(--color-text-primary);
 }
 
 /* ==============================
@@ -160,3 +163,4 @@ p {
   color: var(--color-text-primary);
   box-shadow: var(--shadow-default);
 }
+
