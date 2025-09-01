@@ -150,3 +150,13 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 200; /* Thin */
 }
+
+
+/* ==============================
+   Header
+============================== */
+.header-brand {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  box-shadow: var(--shadow-default);
+}
