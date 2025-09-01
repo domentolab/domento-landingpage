@@ -34,6 +34,9 @@ module.exports = {
         warning: 'var(--status-warning)',
         error: 'var(--status-error)',
       },
+      borderRadius: {
+        DEFAULT: 'var(--border-radius-default)',
+      },
       boxShadow: {
         DEFAULT: 'var(--shadow-default)',
       }
