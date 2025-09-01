@@ -162,5 +162,7 @@ p {
   background-color: var(--color-bg);
   color: var(--color-text-primary);
   box-shadow: var(--shadow-default);
+   border-radius: var(--border-radius-default);
 }
+
 
