@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         // öffnen (an Inhaltshöhe anpassen)
         content.style.maxHeight = content.scrollHeight + 'px';
-        content.style.padding = '0px 60px 0px 0px';
+        content.style.padding = '0px 60px 0px 20px';
         if (icon) icon.style.transform = 'rotate(45deg)';
       }
     });
