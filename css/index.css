@@ -367,11 +367,10 @@ hr{
 .faq .content {
     padding: 0px 18px;
     color: var(--faq-content-text);
-    height: max-content;
     overflow: hidden;
     background-color: transparent;
     text-align: justify;
-    max-height: 0px;
+    max-height: 0;
     transition: max-height 0.4s, padding 0.4s;
 }
 
