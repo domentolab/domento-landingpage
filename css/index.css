@@ -369,7 +369,7 @@ hr{
     color: var(--faq-content-text);
     overflow: hidden;
     background-color: transparent;
-    text-align: justify;
+    text-align: left;
     max-height: 0;
     transition: max-height 0.4s, padding 0.4s;
 }
